@@ -2,7 +2,7 @@
 
 [](dependency)
 ```clojure
-[cljsjs/chessground "4.4.0-0"] ;; latest release
+[cljsjs/chessground "4.5.0-0"] ;; latest release
 ```
 
 This jar comes with `deps.cljs` as used by the [Foreign Libs][flibs] feature

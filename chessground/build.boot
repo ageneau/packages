@@ -10,7 +10,7 @@
          '[clojure.java.io :as io]
          '[boot.util :refer [sh]])
 
-(def +lib-version+ "4.4.0")
+(def +lib-version+ "4.5.0")
 (def +version+ (str +lib-version+ "-0"))
 
 (task-options!
@@ -41,7 +41,7 @@
 (deftask package []
   (comp
    (download :url (format "https://github.com/ornicar/chessground/archive/v%s.zip" +lib-version+)
-             :checksum "de70e03ac9ce55a03439b230f4967053"
+             :checksum "8acc910be0b908e3f1c39bd0c6816b52"
              :unzip true)
    (build-chessground)
    (sift :move {#"^chessground-.*/chessground\.js" "cljsjs/chessground/development/chessground.inc.js"})

@@ -30,6 +30,7 @@ var Chessground = {
     "transformProp": function () {},
     "isTrident": function () {},
     "requestAnimationFrame": function () {},
+    "isLeftButton": function () {},
     "isRightButton": function () {},
     "memo": function () {}
   },
